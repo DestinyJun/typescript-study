@@ -1,4 +1,2 @@
-function sayHello(person) {
-    return 'Hello,' + person;
-}
-sayHello(123);
+console.log('我爱你');
+//# sourceMappingURL=hello.js.map
