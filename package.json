@@ -19,5 +19,8 @@
   "devDependencies": {
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }

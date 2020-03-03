@@ -5,7 +5,9 @@
     "sourceMap": false
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/jQuery.d.ts"
   ],
   "noEmitOnError": true
 }
+
