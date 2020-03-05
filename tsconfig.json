@@ -2,7 +2,12 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2017",
-    "sourceMap": false
+    "sourceMap": false,
+    "declaration": false,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["types/*"]
+    }
   },
   "exclude": [
     "node_modules",
