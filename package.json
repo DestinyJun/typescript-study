@@ -4,7 +4,9 @@
   "description": "[![@coreui angular](https://img.shields.io/badge/@coreui%20-angular-lightgrey.svg?style=flat-square)](https://github.com/coreui/angular)\r [![npm package][npm-coreui-angular-badge]][npm-coreui-angular] \r [![NPM downloads][npm-coreui-angular-download]][npm-coreui-angular]  \r [![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)\r [![npm package][npm-coreui-badge]][npm-coreui]\r [![NPM downloads][npm-coreui-download]][npm-coreui]    \r ![angular](https://img.shields.io/badge/angular-^8.0.0-lightgrey.svg?style=flat-square)",
   "main": "hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint index.ts",
+    "eslint_ts": "eslint src --ext .ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/DestinyJun/typescript-study#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
   },

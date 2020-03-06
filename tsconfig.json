@@ -1,4 +1,7 @@
 {
+  "_comment": {
+    "title":"此文件是TS编译的配置文件"
+  },
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2017",
